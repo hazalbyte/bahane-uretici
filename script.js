@@ -83,3 +83,6 @@ function resetApp() {
 const visits = localStorage.getItem("visits") || 0;
 localStorage.setItem("visits", Number(visits) + 1);
 
+document.getElementById("visitCount").innerText =
+    localStorage.getItem("visits");
+
