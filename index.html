@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bahane Üretici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Bahane Üretici</h1>
+
+    <p class="question">Ne hakkında bahane üretmek istiyorsun?</p>
+
+    <div class="buttons" id="typeButtons">
+        <button class="btn work" onclick="setType('Is')">İş Hakkında</button>
+        <button class="btn school" onclick="setType('Okul')">Okul Hakkında</button>
+    </div>
+
+    <div id="actionArea"></div>
+</div>
+
+<!-- POPUP -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <h2>🎉 Tebrikler!</h2>
+        <p>Başarıyla bahanelendiniz!</p>
+        <button onclick="resetApp()">Başa Dön</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
