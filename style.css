@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    transition: background 0.8s ease;
+}
+
+body.ready {
+    background: #18a558;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+.question {
+    font-size: 16px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 14px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin: 0 8px;
+}
+
+.work { background: #2196f3; }
+.school { background: #ff9800; }
+
+.loading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.excuse {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.result-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.ok {
+    background: #4caf50;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.nope {
+    background: #f44336;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.15s;
+}
+
+/* POPUP */
+.popup {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup.active {
+    display: flex;
+}
+
+.popup-content {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.popup-content button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #2196f3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
