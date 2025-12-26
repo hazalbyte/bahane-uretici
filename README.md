@@ -19,3 +19,6 @@
 Bu repo’yu indirdikten sonra:
 - `index.html` dosyasını açman yeterlidir
 - Ek kurulum gerekmez
+  
+## 🌐 Canlı Demo
+👉 https://hazalbyte.github.io/bahane-uretici/
