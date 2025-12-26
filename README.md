@@ -1,3 +1,5 @@
+## Türkçe
+
 # 🎭 Bahane Üretici
 
 İş veya okul için eğlenceli ve rastgele bahaneler üreten mini web uygulaması.
@@ -10,6 +12,9 @@
 - Tebrik popup ekranı
 - GitHub Pages ile canlı yayınlanabilir
 
+- ## 🌐 Canlı Demo
+👉 https://hazalbyte.github.io/bahane-uretici/
+
 ## 🛠️ Kullanılan Teknolojiler
 - HTML5
 - CSS3
@@ -20,19 +25,17 @@ Bu repo’yu indirdikten sonra:
 - `index.html` dosyasını açman yeterlidir
 - Ek kurulum gerekmez
   
-## 🌐 Canlı Demo
-👉 https://hazalbyte.github.io/bahane-uretici/
 
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### 🎭 Excuse Generator
 
 A fun mini web application that generates random excuses for work or school.
 
-#### Features
+## 🚀 Features
 - Separate excuse pools for work and school
 - 5-second “generating excuse” flow
 - Random excuse generation
@@ -40,11 +43,15 @@ A fun mini web application that generates random excuses for work or school.
 - Success popup screen
 - Can be deployed via GitHub Pages
 
-#### Tech Stack
+## 🌐 Live Demo
+👉 https://hazalbyte.github.io/bahane-uretici/
+
+## 🛠️ Tech Stack
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-#### Usage
-Simply open `index.html`.  
-No setup required.
+## 📂 Usage
+After downloading the repository:
+- Simply open `index.html`
+- No setup required
