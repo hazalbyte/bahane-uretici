@@ -78,3 +78,8 @@ function resetApp() {
 
     document.getElementById("actionArea").innerHTML = "";
 }
+
+// Local visit counter
+const visits = localStorage.getItem("visits") || 0;
+localStorage.setItem("visits", Number(visits) + 1);
+
