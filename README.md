@@ -22,3 +22,29 @@ Bu repo’yu indirdikten sonra:
   
 ## 🌐 Canlı Demo
 👉 https://hazalbyte.github.io/bahane-uretici/
+
+
+---
+
+## 🇬🇧 English
+
+### 🎭 Excuse Generator
+
+A fun mini web application that generates random excuses for work or school.
+
+#### Features
+- Separate excuse pools for work and school
+- 5-second “generating excuse” flow
+- Random excuse generation
+- Escaping “Dislike” button 😄
+- Success popup screen
+- Can be deployed via GitHub Pages
+
+#### Tech Stack
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+#### Usage
+Simply open `index.html`.  
+No setup required.
